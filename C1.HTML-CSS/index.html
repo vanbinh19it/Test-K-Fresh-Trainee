@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main class="page page--center">
+      <article class="card card--interactive product-card" aria-label="Product card">
+        <a class="card__media product-card__media" href="#" aria-label="View product details">
+          <img
+            class="card__image product-card__image"
+            src="./images/shoe.jpg"
+           width="400"
+           height="300"
+            alt="Shoe in black color"
+            loading="lazy"
+          />
+        </a>
+
+        <div class="card__content product-card__content">
+          <header class="product-card__header" aria-label="Product information">
+            <h2 class="product-card__title">Shoe in black color</h2>
+            <p class="product-card__price" aria-label="Price">$129.00</p>
+          </header>
+
+          <button class="btn btn--primary product-card__cta" type="button">
+            Add to Cart
+          </button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
